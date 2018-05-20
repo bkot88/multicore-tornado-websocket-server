@@ -4,14 +4,14 @@ An example of a tornado websocket server which accepts cpu heavy work from a cli
 
 # Getting started
 
-1. launch the server first.
+1. Launch the server first.
 ```
 > git clone https://github.com/bkot88/tornado-multicore-websocket-server.git
 > cd tornado-multicore-websocket-server
 > python server.py
 ```
-2. launch client.html
+2. Run client.html from a browser.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
