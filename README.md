@@ -2,7 +2,7 @@
 
 An example of a tornado websocket server which accepts cpu heavy work from a client. Using python's multiprocessing Pipe and Process, the server provides feedback in real time back to the client, via websockets.
 
-# Getting started
+## Getting started
 
 1. Launch the server first.
 ```
