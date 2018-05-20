@@ -50,6 +50,7 @@ def reader(client, pipe):
     alive = True
     while alive:
         try:
+            # retrieve msgs from the pipe and send to client
             msg = pipe.recv()
             client.write_message(msg)
         except EOFError:
@@ -57,7 +58,7 @@ def reader(client, pipe):
 
 
 def doWork(conn):
-    # emulate doing long working task.
+    # emulate a long task
     conn.send('work process starting...')
     for i in range(10):
         msg = '{}/100%'.format((i+1)*10)
